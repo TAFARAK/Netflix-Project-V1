@@ -5,7 +5,7 @@
 
 body{
   font-family: Arial, Helvetica, sans-serif;
-  /* background-color: black; */
+  background-color: black;
 }
 
 .container .head{
@@ -101,4 +101,14 @@ body{
 .no {
     display: flex;
     height: 45vh;
+    overflow-y: hidden;
+}
+
+html{
+    overflow: scroll;
+    overflow-x: hidden;   
+}
+
+::-webkit-scrollbar{
+    width: 5px;
 }

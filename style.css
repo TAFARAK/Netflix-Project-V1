@@ -184,12 +184,16 @@ body{
     grid-row: 1/2;
     z-index: -1;
     width: 90%;
+    max-width: 100%;
+    height: auto;
     margin-left: 15%;
     box-sizing: content-box;
 
 }
 
 .card-1 img{
+    max-width: 100%;
+    height: auto;
     grid-column: 2/2;
     grid-row: 1/2;
 }
@@ -201,10 +205,14 @@ body{
     z-index: -1;
     width: 70%;
     margin-left: 21%;
-    margin-bottom: 33%
-    /* box-sizing: content-box; */
+    margin-bottom: 33%;
+    max-width: 100%;
+    height: auto;
+    box-sizing: content-box;
 }
 .card-3 img{
+    max-width: 100%;
+    height: auto;
     grid-column: 2/2;
     grid-row: 1/2;
 }
