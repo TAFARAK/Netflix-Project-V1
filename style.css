@@ -183,10 +183,10 @@ body{
     grid-column: 2/2;
     grid-row: 1/2;
     z-index: -1;
-    width: 90%;
+    width: 77%;
     max-width: 100%;
     height: auto;
-    margin-left: 15%;
+    margin-left: 12%;
     box-sizing: content-box;
 
 }
@@ -204,8 +204,8 @@ body{
     grid-row: 1/2;
     z-index: -1;
     width: 70%;
-    margin-left: 21%;
-    margin-bottom: 33%;
+    margin-left: 18%;
+    margin-bottom: 28%;
     max-width: 100%;
     height: auto;
     box-sizing: content-box;
